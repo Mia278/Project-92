@@ -1,0 +1,71 @@
+body {
+    background-image: url("mountains.webp");
+}
+
+.bdy {
+    margin-top: 150px;   
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.login_div {
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+
+#player1_name,
+#player2_name {
+    display: inline-block;
+}
+
+#b1,
+#b2,
+#b3 {
+    width: 305px;
+    border-radius: 20px;
+}
+
+.gg {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-color:aqua;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.form {
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: yellow;
+    width: 375px;
+    height: 35px;
+    text-align: center;
+}
+
+#output {
+    background: rgb(167, 157, 157);
+    border-radius: 10px;
+    border-top: 10px solid rgb(2, 2, 245);
+    padding: 10px;
+    float: none;
+    text-align: left;
+    width: 750px;
+}
+
+#player1_name{
+    margin-left: 25px;
+}
+
+#player2_name{
+    margin-left: 25px;
+}

@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Multiplication Math Quiz!!</title>
+</head>
+
+<body>
+	<br>
+	<h4 id="player1_name" style="color: white;">player1</h4>
+	<span id="player1_score" style="color: white;"></span>
+	<br>
+	<h4 id="player2_name" style="color: white;">player2</h4>
+	<span id="player2_score" style="color: white;"></span>
+	<br>
+	<div class="container">
+		<center style="margin-top: -100px;">
+			<h2 style="color: white;">Multiply The Numbers!</h2>
+			<h3 id="question" style="color: white;"></h3>
+			<br>
+			<h3 id="answer" style="color: white;"></h3>
+			<br>
+			<div id="output"></div>
+			<br>
+			<br>
+			<label style="color: white;">Note :- Try your best and have fun in playing. Good luck!</label>
+			<br>
+			<input type="text" placeholder="Enter Number 1" style="width: 50%;" id="numb1" class="form">
+			<br>
+			<br>
+			<input type="text" placeholder="Enter Number 2" style="width: 50%;" id="numb2" class="form">
+			<br>
+			<br>
+			<button class="btn btn-primary" id="b2" onclick="send()" type="button">Send</button>
+		</center>
+	</div>
+
+	<script src="quiz.js"></script>
+</body>

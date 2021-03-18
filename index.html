@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Multiplication Explosion</title>
+</head>
+
+<body class = "bdy">
+	<center class="gg">
+		<h1 style="color:aquamarine;">Find the Product</h1>
+		<br><br>
+		<h2 style="color: aquamarine;">Game Login</h2>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 login_div">
+			<h4 style="color: aqua;">Player 1 Username :</h4>
+			<input type="text" class="form" placeholder="  type player name here  " id="player1_name">
+		</div>
+		<br>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 login_div">
+			<h4 style="color: aqua;">Player 2 Username :</h4>
+			<input type="text" class="form" placeholder="  type player name here  " id="player2_name">
+		</div>
+		<br>
+		<button class="btn btn-primary" id="b1" onclick="next()" type="button">Log in</button>
+        <br>
+	
+
+	</div>
+	</center>
+	<script>
+		function next() {
+			//will send values from text input to local storage and will navigate to next page//
+			p1 = document.getElementById("player1_name").value;
+			p2 = document.getElementById("player2_name").value;
+			localStorage.setItem("key1", p1);
+			localStorage.setItem("key2", p2);
+			window.location = "quiz.html";
+		}
+	</script>
+</body>
+
+</html>
